@@ -1,36 +1,40 @@
-<style>
-  .balls {
-    border-radius: 50%;
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    top: 60%;
-    animation-name: jump;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
-  #red {
-    background: red;
-    left: 25%;
-    animation-timing-function: linear;
-  }
-  #blue {
-    background: blue;
-    left: 50%;
-    animation-timing-function: ease-out;
-  }
-  #green {
-    background: green;
-    left: 75%;
-    animation-timing-function: cubic-bezier(0.311, 0.441, 0.444, 1.649);
-  }
+<body>
+  <header>
+    <h1>Even Deeper Thoughts with Master Camper Cat</h1>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Training</a></li>
+      </ul>
+    </nav>
+  </header>
+  <form>
+    <label for="search">Search:</label>
 
-  @keyframes jump {
-    50% {
-      top: 10%;
-    }
-  }
-</style>
-<div class="balls" id="red"></div>
-<div class="balls" id="blue"></div>
-<div class="balls" id="green"></div>
+    <input type="search" name="search" id="search" tabindex="1" />
+    <input
+      type="submit"
+      name="submit"
+      value="Submit"
+      id="submit"
+      tabindex="2"
+    />
+  </form>
+  <h2>Inspirational Quotes</h2>
+  <blockquote>
+    <p>
+      &ldquo;There's no Theory of Evolution, just a list of creatures I've
+      allowed to live.&rdquo;<br />
+      - Chuck Norris
+    </p>
+  </blockquote>
+  <blockquote>
+    <p>
+      &ldquo;Wise men say forgiveness is divine, but never pay full price for
+      late pizza.&rdquo;<br />
+      - TMNT
+    </p>
+  </blockquote>
+  <footer>&copy; 2018 Camper Cat</footer>
+</body>
